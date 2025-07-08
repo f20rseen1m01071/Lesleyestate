@@ -1,0 +1,103 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.mortgage-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+  background: #f8f8f8;
+  font-family: system-ui, sans-serif;
+}
+
+.calculator-box, .summary-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.calculator-box h2,
+.summary-box h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #001f3f;
+  margin-bottom: 20px;
+}
+
+.calculator-box label {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #001f3f;
+}
+
+.calculator-box input[type="number"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.calculator-box input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+  appearance: none;
+  height: 4px;
+  background: #ccc;
+  outline: none;
+}
+
+.calculator-box input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #999;
+}
+
+.summary-box table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.summary-box th {
+  background: #e9ecef;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.summary-box td {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+  color: #001f3f;
+}
+
+.summary-box hr {
+  margin-top: 20px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.summary-box .monthly-payment {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+  color: #001f3f;
+  display: flex;
+  justify-content: space-between;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
